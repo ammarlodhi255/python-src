@@ -1,6 +1,6 @@
 user_input = ""
 
-while(user_input != 'quit'):
+while(True):
     user_input = input('> ').casefold()
 
     if user_input == 'start':
@@ -13,6 +13,8 @@ while(user_input != 'quit'):
         stop - to stop the car
         quit - to leave the car
         ''')
+    elif user_input == 'quit':
+        break
     else:
         print("I don't understand that")
 
