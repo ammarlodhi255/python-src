@@ -7,6 +7,12 @@ while(user_input != 'quit'):
         print('Car started ...')
     elif user_input == 'stop':
         print('Car stopped ...')
+    elif user_input == 'help':
+        print('''
+        start - to start the car
+        stop - to stop the car
+        quit - to leave the car
+        ''')
     else:
         print("I don't understand that")
 
