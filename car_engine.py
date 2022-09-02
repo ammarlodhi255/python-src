@@ -1,4 +1,4 @@
-user_input = input().casefold()
+user_input = input('> ').casefold()
 
 while(user_input != 'quit'):
     if user_input == 'start':
@@ -8,6 +8,6 @@ while(user_input != 'quit'):
     else:
         print("I don't understand that")
 
-    user_input = input().casefold()
+    user_input = input('> ').casefold()
 
 print('You left the car.')
