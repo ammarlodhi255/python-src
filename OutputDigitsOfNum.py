@@ -10,7 +10,7 @@ list_of_digits.reverse()
 digits_str = " ".join(list_of_digits)
 print(digits_str)
 
-#Second method:
+# Second method:
 list_of_digits.reverse()
-for i in range(len(list_of_digits)): print(list_of_digits.pop(), end = " ")
-
+for i in range(len(list_of_digits)):
+    print(list_of_digits.pop(), end=" ")
