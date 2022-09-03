@@ -20,6 +20,6 @@ def check_prime(num):
 def get_primes(start, end):
     primes = []
     for i in range(start, end + 1, 1):
-        if is_prime(i):
+        if check_prime(i):
             primes.append(i)
     return primes
