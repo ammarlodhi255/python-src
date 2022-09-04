@@ -16,3 +16,9 @@ print(os.listdir())
 # os.makedirs(path1/path2/path3/..)
 # os.rmdir(path)
 # os.removedirs(path1/path2/path3/..)
+# os.rename(filename, new_name)
+
+# os.walk() generates three tuples: current directory, directories with that dir, and all the filenames
+for curr_dir, dirs, filenames in os.walk(os.getcwd()):
+    for file in filenames:
+        print(file)
