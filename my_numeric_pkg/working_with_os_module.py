@@ -10,7 +10,7 @@ print(os.getcwd())
 # get list of all file names in the cwd, or pass in the path inside listdir(path)
 print(os.listdir())
 
-# Other methods:
+# Other important methods:
 
 # os.mkdir(path)
 # os.makedirs(path1/path2/path3/..)
@@ -25,3 +25,8 @@ for curr_dir, dirs, filenames in os.walk(os.getcwd()):
 
 # concatenate path with a filename:
 print(os.path.join(os.getcwd(), 'SLACK.INK'))
+
+# basename(If you only want the filename in the path) and dirname(If you only want the dirname)
+
+print(os.path.basename('p/r/s.txt'))
+print(os.path.dirname('dir1/t.txt'))
