@@ -22,3 +22,6 @@ print(os.listdir())
 for curr_dir, dirs, filenames in os.walk(os.getcwd()):
     for file in filenames:
         print(file)
+
+# concatenate path with a filename:
+print(os.path.join(os.getcwd(), 'SLACK.INK'))
