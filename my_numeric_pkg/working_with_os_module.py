@@ -30,3 +30,12 @@ print(os.path.join(os.getcwd(), 'SLACK.INK'))
 
 print(os.path.basename('p/r/s.txt'))
 print(os.path.dirname('dir1/t.txt'))
+
+# Useful methods:
+
+# os.path.split()
+# os.path.exists()
+# os.path.isfile()
+# os.path.isdir()
+
+# os.path.splittext() -> use this to get extension (check its output first)
