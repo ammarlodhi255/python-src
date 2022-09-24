@@ -5,8 +5,9 @@ for index, area in enumerate(areas):
 
 
 # Example where enumerate is useful:
-
-hotels = ['Crowne Plaza', 'Emerald Bay Inn', 'Hotel Bliss', 'University Inn', 'The New View']
+# The following lists correspond with each other and we want to traverse through each of these lists
+hotels = ['Crowne Plaza', 'Emerald Bay Inn',
+          'Hotel Bliss', 'University Inn', 'The New View']
 areas = [56.0, 20.5, 78.2, 45.8, 82.9]
 
 for index, hotel in enumerate(hotels):
