@@ -5,6 +5,9 @@ class Car:
 car_1 = Car()
 car_2 = Car()
 
+print(car_1)
+print(car_2)
+
 car_1.color = 'red'
 car_2.color = 'green'
 
