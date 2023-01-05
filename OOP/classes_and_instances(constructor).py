@@ -19,3 +19,7 @@ car_2 = Car('green', 'R14', '100mph')
 
 car_1.show_details()
 car_2.show_details()
+
+# If you leave the parenthesis off, when refering to the method, you will get the following output:
+print(car_1.show_details)
+# <bound method Car.show_details of <__main__.Car object at mem_location>>
