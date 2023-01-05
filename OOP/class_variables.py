@@ -18,3 +18,7 @@ class Car:
 car = Car('blue', 'OP90', '190mph')
 # Let us see the instance variable of this object:
 print(car.__dict__)
+
+print(Car.num_of_chairs)
+# The instance will first check whether it has the 'num_of_chairs; instance variable, then it checks whether it is a class variable
+print(car.num_of_chairs)
