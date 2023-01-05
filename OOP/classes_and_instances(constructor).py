@@ -3,3 +3,6 @@ class Car:
         self.color = color
         self.model = model
         self.speed = speed
+
+
+car_1 = ()
