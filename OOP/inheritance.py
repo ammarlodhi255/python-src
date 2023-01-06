@@ -44,3 +44,6 @@ print(car_1.get_base_price())
 print(volks_1.get_base_price())
 
 volks_1.display_details()
+
+# Check to see if volks_1 is an instance of Car
+print(isinstance(volks_1, Car))
