@@ -47,3 +47,6 @@ volks_1.display_details()
 
 # Check to see if volks_1 is an instance of Car
 print(isinstance(volks_1, Car))
+
+# Check to see if one class is a subclass of another class
+print(issubclass(Volkswagen, Car))
