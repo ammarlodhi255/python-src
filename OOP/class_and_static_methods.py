@@ -23,6 +23,11 @@ class Car:
         color, model, speed = car_str.split('-')
         return cls(color, model, speed)
 
+    # Static method, that has logical connection to class, but does not need an instance or class variable inside it
+    @staticmethod
+    def is_out_dated(num_of_years):
+        return num_of_years > 15
+
 
 car_1 = Car('red', 'UN', '100')
 car_2 = Car('red', 'UN1', '100')
@@ -40,3 +45,6 @@ print(Car.num_of_chairs)
 # Class method as an alternative constructor
 car_3 = Car.from_string('Blue-7HY-100mph')
 car_3.show_details()
+
+# Using static method
+print(Car.is_out_dated(13))
