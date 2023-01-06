@@ -19,6 +19,10 @@ class Volkswagen(Car):
     # This class variable has a value for 'base_price_ different than the subclass
     base_price = 800000
 
+    def __init__(self, color, model, speed, inventor):
+        super().__init__(color, model, speed)
+        self.inventor = inventor
+
 
 '''
 See all the methods and attributes inside of the subclass using help(cls_name)
