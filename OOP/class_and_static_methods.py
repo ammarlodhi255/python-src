@@ -14,7 +14,7 @@ class Car:
     def show_num_of_chairs(self):
         print(Car.num_of_chairs)  # Access class variable
 
-    @classmethod
+    @classmethod # This decorator alters the functionality of our regular method to now accept the class instead of an instance of the class
     def set_num_of_chairs(cls, num_of_chairs):
         cls.num_of_chairs = num_of_chairs
 
