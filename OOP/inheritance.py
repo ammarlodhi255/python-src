@@ -23,6 +23,11 @@ class Volkswagen(Car):
         super().__init__(color, model, speed)
         self.inventor = inventor
 
+    # Overriding a method
+    def display_details(self):
+        print(
+            f'Color: {self.color}\nSpeed: {self.speed}\nModel: {self.model}\nInventor: {self.inventor}')
+
 
 '''
 See all the methods and attributes inside of the subclass using help(cls_name)
@@ -33,7 +38,9 @@ The method resolution order shown in the output, is the order of execution when 
 
 # Create a Car instance and a Volkswagen instance:
 car_1 = Car('red', 'Base', '100')
-volks_1 = Volkswagen('blue', 'volkswagen', '900')
+volks_1 = Volkswagen('blue', 'volkswagen', '900', 'Josef Ganz')
 
 print(car_1.get_base_price())
 print(volks_1.get_base_price())
+
+volks_1.display_details()
