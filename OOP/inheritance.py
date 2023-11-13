@@ -13,7 +13,6 @@ class Car:
     def get_base_price(cls):
         return cls.base_price  # Access class variable
 
-
 # This subclass inherits all the methods and attributes of the base class 'Car'
 class Volkswagen(Car):
     # This class variable has a value for 'base_price_ different than the subclass
